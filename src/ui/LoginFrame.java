@@ -50,7 +50,7 @@ public class LoginFrame extends JFrame {
         logo.setOpaque(true); logo.setBackground(BLUE); logo.setForeground(Color.WHITE);
         logo.setFont(new Font("SansSerif", Font.BOLD, 26)); logo.setPreferredSize(new Dimension(52, 52));
         JPanel brand = new JPanel(new BorderLayout(14, 0)); brand.setOpaque(false);
-        JLabel name = new JLabel("LibraryFlow"); name.setForeground(Color.WHITE); name.setFont(new Font("SansSerif", Font.BOLD, 23));
+        JLabel name = new JLabel("UWU Library"); name.setForeground(Color.WHITE); name.setFont(new Font("SansSerif", Font.BOLD, 23));
         JLabel tagline = new JLabel("LIBRARY MANAGEMENT SYSTEM"); tagline.setForeground(new Color(174, 190, 216)); tagline.setFont(new Font("SansSerif", Font.BOLD, 10));
         JPanel brandText = new JPanel(new BorderLayout(0, 5)); brandText.setOpaque(false); brandText.add(name, BorderLayout.NORTH); brandText.add(tagline, BorderLayout.CENTER);
         brand.add(logo, BorderLayout.WEST); brand.add(brandText, BorderLayout.CENTER); top.add(brand, BorderLayout.CENTER);
