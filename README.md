@@ -1,4 +1,4 @@
-# LibraryFlow — Library Management System
+#  UWULibrary - Library Management System
 
 A Java Swing desktop library management application with a modern dashboard, sidebar navigation, styled forms and tables, animated statistics, and toast notifications.
 
