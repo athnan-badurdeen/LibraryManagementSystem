@@ -82,7 +82,7 @@ public class MainFrame extends JFrame {
         this.library = library;
         this.username = username;
         this.memberRole = "MEMBER".equalsIgnoreCase(role);
-        setTitle("LibraryFlow | Library Management System");
+        setTitle("UWU Library | Library Management System");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(1000, 680));
         setSize(1180, 760);
@@ -121,7 +121,7 @@ public class MainFrame extends JFrame {
         JPanel brandText = new JPanel();
         brandText.setOpaque(false);
         brandText.setLayout(new BoxLayout(brandText, BoxLayout.Y_AXIS));
-        JLabel name = new JLabel("LibraryFlow");
+        JLabel name = new JLabel("UWU Library");
         name.setForeground(Color.WHITE);
         name.setFont(new Font("SansSerif", Font.BOLD, 18));
         JLabel caption = new JLabel("MANAGEMENT SUITE");
@@ -139,7 +139,7 @@ public class MainFrame extends JFrame {
         nav.setLayout(new BoxLayout(nav, BoxLayout.Y_AXIS));
         nav.setBorder(new EmptyBorder(38, 0, 0, 0));
         String[] labels = { "Overview", memberRole ? "Available books" : "Books", "Members", "Borrow a book", "Returns & history" };
-        String[] icons = { "⌂", "▤", "♙", "⇢", "↺" };
+        
         for (int i = 0; i < labels.length; i++) {
             final int index = i;
             JButton b = new JButton("  " + icons[i] + "     " + labels[i]);
