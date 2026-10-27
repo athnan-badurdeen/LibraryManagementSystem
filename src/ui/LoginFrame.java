@@ -35,7 +35,7 @@ public class LoginFrame extends JFrame {
 
     public LoginFrame(Library library) {
         this.library = library;
-        setTitle("LibraryFlow | Sign in");
+        setTitle("UWU Library | Sign in");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(520, 570);
         setMinimumSize(new Dimension(480, 530));
@@ -92,8 +92,8 @@ public class LoginFrame extends JFrame {
         String user = username.getText().trim();
         String pass = new String(password.getPassword());
         String role = null;
-        if ("admin".equals(user) && "admin123".equals(pass)) role = "ADMIN";
-        else if ("member".equals(user) && "member123".equals(pass)) role = "MEMBER";
+        if ("admin".equals(user) && "1234".equals(pass)) role = "ADMIN";
+        else if ("member".equals(user) && "1234".equals(pass)) role = "MEMBER";
 
         if (role == null) {
             JOptionPane.showMessageDialog(this, "The username or password is incorrect.", "Sign-in failed", JOptionPane.ERROR_MESSAGE);
