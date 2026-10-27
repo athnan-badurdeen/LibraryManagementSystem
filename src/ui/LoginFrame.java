@@ -68,7 +68,7 @@ public class LoginFrame extends JFrame {
         styleField(password); c.gridy = 5; c.insets = new Insets(0, 0, 20, 0); content.add(password, c);
         JButton login = new JButton("Sign in  →"); login.setFont(new Font("SansSerif", Font.BOLD, 13)); login.setBackground(BLUE); login.setForeground(Color.WHITE); login.setFocusPainted(false); login.setBorder(new EmptyBorder(13, 16, 13, 16)); login.setOpaque(true);
         c.gridy = 6; c.insets = new Insets(0, 0, 17, 0); content.add(login, c);
-        JLabel hint = new JLabel("Demo accounts: admin / admin123     •     member / member123"); hint.setFont(new Font("SansSerif", Font.PLAIN, 10)); hint.setForeground(MUTED);
+        JLabel hint = new JLabel("Demo accounts: admin / 1234     •     member / 1234"); hint.setFont(new Font("SansSerif", Font.PLAIN, 10)); hint.setForeground(MUTED);
         c.gridy = 7; c.insets = new Insets(0, 0, 0, 0); content.add(hint, c);
         add(content, BorderLayout.CENTER);
 
