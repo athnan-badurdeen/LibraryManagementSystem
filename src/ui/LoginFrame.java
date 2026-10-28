@@ -60,7 +60,7 @@ public class LoginFrame extends JFrame {
         GridBagConstraints c = new GridBagConstraints(); c.gridx = 0; c.weightx = 1; c.fill = GridBagConstraints.HORIZONTAL; c.insets = new Insets(0, 0, 10, 0);
         JLabel heading = new JLabel("Welcome back"); heading.setFont(new Font("SansSerif", Font.BOLD, 24)); heading.setForeground(TEXT);
         c.gridy = 0; content.add(heading, c);
-        JLabel sub = new JLabel("Sign in to continue to your library workspace."); sub.setFont(new Font("SansSerif", Font.PLAIN, 12)); sub.setForeground(MUTED);
+        JLabel sub = new JLabel("Sign in to continue to your library system."); sub.setFont(new Font("SansSerif", Font.PLAIN, 12)); sub.setForeground(MUTED);
         c.gridy = 1; c.insets = new Insets(0, 0, 22, 0); content.add(sub, c);
         c.insets = new Insets(0, 0, 7, 0); c.gridy = 2; content.add(fieldLabel("USERNAME"), c);
         styleField(username); c.gridy = 3; c.insets = new Insets(0, 0, 15, 0); content.add(username, c);
