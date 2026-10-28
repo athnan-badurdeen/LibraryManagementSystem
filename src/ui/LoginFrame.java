@@ -35,7 +35,7 @@ public class LoginFrame extends JFrame {
 
     public LoginFrame(Library library) {
         this.library = library;
-        setTitle("UWU Library | Sign in");
+        setTitle("Public Library | Sign in");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(520, 570);
         setMinimumSize(new Dimension(480, 530));
