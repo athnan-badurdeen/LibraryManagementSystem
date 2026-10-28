@@ -50,7 +50,7 @@ public class LoginFrame extends JFrame {
         JPanel top = new JPanel(new BorderLayout());
         top.setBackground(NAVY);
         top.setBorder(new EmptyBorder(28, 34, 28, 34));
-        ImageIcon icon = new ImageIcon("/image/LMS Logo.png");
+        ImageIcon icon = new ImageIcon("src/LMS Logo.png");
         JLabel logo = new JLabel(icon, SwingConstants.CENTER);
         logo.setOpaque(true); logo.setBackground(BLUE); logo.setForeground(Color.WHITE);
         logo.setFont(new Font("SansSerif", Font.BOLD, 26)); logo.setPreferredSize(new Dimension(52, 52));
