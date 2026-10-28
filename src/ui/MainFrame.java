@@ -121,10 +121,10 @@ public class MainFrame extends JFrame {
         JPanel brandText = new JPanel();
         brandText.setOpaque(false);
         brandText.setLayout(new BoxLayout(brandText, BoxLayout.Y_AXIS));
-        JLabel name = new JLabel("UWU Library");
+        JLabel name = new JLabel("Public Library");
         name.setForeground(Color.WHITE);
         name.setFont(new Font("SansSerif", Font.BOLD, 18));
-        JLabel caption = new JLabel("MANAGEMENT SUITE");
+        JLabel caption = new JLabel("Management System");
         caption.setForeground(new Color(164, 178, 204));
         caption.setFont(new Font("SansSerif", Font.BOLD, 9));
         brandText.add(name);
