@@ -82,7 +82,7 @@ public class MainFrame extends JFrame {
         this.library = library;
         this.username = username;
         this.memberRole = "MEMBER".equalsIgnoreCase(role);
-        setTitle("UWU Library | Library Management System");
+        setTitle("Public Library | Library Management System");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(1000, 680));
         setSize(1180, 760);
