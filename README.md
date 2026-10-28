@@ -8,8 +8,8 @@ The application now opens on a sign-in screen. Use one of these demo accounts:
 
 | Role | Username | Password | Access |
 |---|---|---|---|
-| Administrator / Librarian | `admin` | `admin123` | Full existing management interface: books, members, borrowing, returns, and history |
-| Member | `member` | `member123` | Dashboard, available books, and search of available books only |
+| Administrator / Librarian | `admin` | `1234` | Full existing management interface: books, members, borrowing, returns, and history |
+| Member | `member` | `1234` | Dashboard, available books, and search of available books only |
 
 Members do not see the administration navigation items or book-management form/remove action. Their book search results are filtered to available books only. The application also guards page navigation against member access to restricted pages. Use **Log out** in the header to return to the login screen.
 
