@@ -7,7 +7,6 @@ import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
-import java.awt.Image;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -19,9 +18,6 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.SwingConstants;
 
 import service.Library;
 
@@ -50,8 +46,7 @@ public class LoginFrame extends JFrame {
         JPanel top = new JPanel(new BorderLayout());
         top.setBackground(NAVY);
         top.setBorder(new EmptyBorder(28, 34, 28, 34));
-        ImageIcon icon = new ImageIcon("src/LMS Logo.png");
-        JLabel logo = new JLabel(icon, SwingConstants.CENTER);
+        JLabel logo = new JLabel("L", SwingConstants.CENTER);
         logo.setOpaque(true); logo.setBackground(BLUE); logo.setForeground(Color.WHITE);
         logo.setFont(new Font("SansSerif", Font.BOLD, 26)); logo.setPreferredSize(new Dimension(52, 52));
         JPanel brand = new JPanel(new BorderLayout(14, 0)); brand.setOpaque(false);
