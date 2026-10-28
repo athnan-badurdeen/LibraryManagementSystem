@@ -138,7 +138,7 @@ public class MainFrame extends JFrame {
         nav.setOpaque(false);
         nav.setLayout(new BoxLayout(nav, BoxLayout.Y_AXIS));
         nav.setBorder(new EmptyBorder(38, 0, 0, 0));
-        String[] labels = { "Overview", memberRole ? "Available books" : "Books", "Members", "Borrow a book", "Returns & history" };
+        String[] labels = { "Dashboard", memberRole ? "Available books" : "Books", "Members", "Borrow a book", "Returns & history" };
         String[] icons = { "⌂", "▤", "♙", "⇢", "↺" };
         for (int i = 0; i < labels.length; i++) {
             final int index = i;
