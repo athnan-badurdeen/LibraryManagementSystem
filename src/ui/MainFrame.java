@@ -168,7 +168,7 @@ public class MainFrame extends JFrame {
         separator.setBackground(new Color(57, 73, 101));
         bottom.add(separator);
         bottom.add(Box.createVerticalStrut(14));
-        JLabel admin = new JLabel(memberRole ? "●   Member workspace" : "●   Librarian workspace");
+        JLabel admin = new JLabel(memberRole ? "Member Portal" : "Librarian Portal");
         admin.setForeground(new Color(177, 192, 215));
         admin.setFont(new Font("SansSerif", Font.PLAIN, 11));
         bottom.add(admin);
