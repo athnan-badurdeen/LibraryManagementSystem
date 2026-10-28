@@ -23,11 +23,11 @@ import service.Library;
 
 /** Login screen and demo credential validation for the desktop application. */
 public class LoginFrame extends JFrame {
-    private static final Color NAVY       = new Color(15, 23, 42);     // #0F172A
-    private static final Color BLUE       = new Color(37, 99, 235);    // #2563EB
-    private static final Color TEXT       = new Color(30, 41, 59);     // #1E293B
-    private static final Color MUTED      = new Color(100, 116, 139);  // #64748B
-    private static final Color BORDER     = new Color(226, 232, 240);  // #E2E8F0
+    private static final Color NAVY = new Color(15, 23, 42);     // #0F172A
+    private static final Color BLUE = new Color(37, 99, 235);    // #2563EB
+    private static final Color TEXT = new Color(30, 41, 59);     // #1E293B
+    private static final Color MUTED = new Color(100, 116, 139);  // #64748B
+    private static final Color BORDER = new Color(226, 232, 240);  // #E2E8F0
 
     private final Library library;
     private final JTextField username = new JTextField();
