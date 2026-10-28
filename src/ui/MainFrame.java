@@ -243,7 +243,7 @@ public class MainFrame extends JFrame {
         JPanel welcome = new JPanel();
         welcome.setOpaque(false);
         welcome.setLayout(new BoxLayout(welcome, BoxLayout.Y_AXIS));
-        JLabel title = new JLabel("Welcome to your library 👋");
+        JLabel title = new JLabel("Welcome to your library!");
         title.setFont(new Font("SansSerif", Font.BOLD, 19));
         title.setForeground(TEXT);
         JLabel desc = new JLabel("Here's what's happening across your library today.");
