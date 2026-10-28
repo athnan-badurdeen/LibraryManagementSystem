@@ -173,7 +173,7 @@ public class MainFrame extends JFrame {
         admin.setFont(new Font("SansSerif", Font.PLAIN, 11));
         bottom.add(admin);
         bottom.add(Box.createVerticalStrut(7));
-        JLabel version = new JLabel("DESKTOP EDITION  •  1.0");
+        JLabel version = new JLabel("Desktop Edition  •  1.0");
         version.setForeground(new Color(116, 134, 163));
         version.setFont(new Font("SansSerif", Font.PLAIN, 9));
         bottom.add(version);
