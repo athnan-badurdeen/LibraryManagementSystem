@@ -14,7 +14,7 @@ public class App {
             Library library = new Library();
             // Books
             library.addBook(new Book("B001", "Clean Code", "Robert C. Martin", "Programming"));
-            library.addBook(new Book("B002", "Java: The Complete Reference", "Herbert Schildt", "Programming"));
+            library.addBook(new Book("B002", "Java Programming", "Herbert Schildt", "Programming"));
             library.addBook(new Book("B003", "Effective Java", "Joshua Bloch", "Programming"));
             library.addBook(new Book("B004", "Head First Java", "Kathy Sierra", "Programming"));
             library.addBook(new Book("B005", "Introduction to Algorithms", "Thomas H. Cormen", "Computer Science"));
@@ -23,7 +23,7 @@ public class App {
             library.addBook(new Book("B008", "Python Crash Course", "Eric Matthes", "Programming"));
             library.addBook(new Book("B009", "Learning Python", "Mark Lutz", "Programming"));
             library.addBook(new Book("B010", "Computer Networks", "Andrew S. Tanenbaum", "Networking"));
-            library.addBook(new Book("B011", "Database System Concepts", "Abraham Silberschatz", "Database"));
+            library.addBook(new Book("B011", "Database Management Systems", "Abraham Silberschatz", "Database"));
             library.addBook(new Book("B012", "Operating System Concepts", "Abraham Silberschatz", "Operating Systems"));
             library.addBook(new Book("B013", "Artificial Intelligence: A Modern Approach", "Stuart Russell", "Artificial Intelligence"));
             library.addBook(new Book("B014", "Data Structures and Algorithms in Java", "Robert Lafore", "Programming"));
