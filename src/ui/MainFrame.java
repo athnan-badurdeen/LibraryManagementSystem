@@ -260,8 +260,8 @@ public class MainFrame extends JFrame {
             stats.add(statCard("BOOKS AVAILABLE TO READ", availableBooks, "✓", new Color(18, 151, 129), new Color(225, 248, 242)));
         } else {
             stats.add(statCard("TOTAL BOOKS", totalBooks, "▤", new Color(67, 111, 226), new Color(235, 241, 255)));
-            stats.add(statCard("AVAILABLE", availableBooks, "✓", new Color(18, 151, 129), new Color(225, 248, 242)));
-            stats.add(statCard("ON LOAN", borrowedBooks, "⇢", new Color(219, 143, 43), new Color(255, 244, 225)));
+            stats.add(statCard("AVAILABLE BOOKS", availableBooks, "✓", new Color(18, 151, 129), new Color(225, 248, 242)));
+            stats.add(statCard("BORROWED BOOKS", borrowedBooks, "⇢", new Color(219, 143, 43), new Color(255, 244, 225)));
             stats.add(statCard("MEMBERS", totalMembers, "♙", new Color(139, 92, 205), new Color(243, 235, 255)));
         }
         top.add(stats, BorderLayout.CENTER);
